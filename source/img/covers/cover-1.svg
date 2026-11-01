@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171129"/>
+      <stop offset=".5" stop-color="#2b2050"/>
+      <stop offset="1" stop-color="#121a2e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx=".7" cy=".3" r=".55">
+      <stop offset="0" stop-color="#8b7cf6" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#8b7cf6" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="moon1">
+      <rect width="800" height="500" fill="#000"/>
+      <circle cx="618" cy="148" r="56" fill="#fff"/>
+      <circle cx="594" cy="128" r="46" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg1)"/>
+  <rect width="800" height="500" fill="url(#glow1)"/>
+  <rect width="800" height="500" fill="#efeaff" opacity=".92" mask="url(#moon1)"/>
+  <circle cx="132" cy="96" r="2.4" fill="#fff" opacity=".85"/>
+  <circle cx="246" cy="188" r="1.8" fill="#fff" opacity=".6"/>
+  <circle cx="92" cy="286" r="2" fill="#fff" opacity=".7"/>
+  <circle cx="352" cy="82" r="1.6" fill="#fff" opacity=".55"/>
+  <circle cx="470" cy="214" r="2.2" fill="#fff" opacity=".65"/>
+  <circle cx="712" cy="330" r="1.8" fill="#fff" opacity=".5"/>
+  <circle cx="560" cy="410" r="2" fill="#fff" opacity=".45"/>
+  <circle cx="180" cy="404" r="1.6" fill="#fff" opacity=".4"/>
+</svg>

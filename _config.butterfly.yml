@@ -107,7 +107,7 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    # - xxx.jpg
+    - /img/covers/cover-1.svg
 
 # Replace Broken Images
 error_img:
@@ -300,7 +300,7 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: '光是人间散客，字是夜里归人。<br>这里记录计量、代码与生活。'
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -1152,6 +1152,12 @@ inject:
       }
       [data-theme="dark"] #recent-posts .recent-post-item {
         box-shadow: 0 8px 26px rgba(0,0,0,.35);
+      }
+      .avatar-img img {
+        transition: transform .55s cubic-bezier(.34,1.56,.64,1) !important;
+      }
+      .avatar-img img:hover {
+        transform: rotate(-9deg) scale(1.06) !important;
       }
       </style>
   bottom:
