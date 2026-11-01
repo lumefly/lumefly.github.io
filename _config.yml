@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的博客
+title: 月是云中散客の博客
 subtitle: ''
-description: ''
-keywords:
-author: 马晓龙
+description: '月是云中散客的技术与生活记录'
+keywords: '月是云中散客,lumefly,博客'
+author: 月是云中散客
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
